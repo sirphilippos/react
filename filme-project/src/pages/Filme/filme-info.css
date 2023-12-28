@@ -1,0 +1,56 @@
+/* Adicione este conteúdo no seu arquivo de estilo (por exemplo, filme-info.css) */
+
+.Filme-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Filme-info img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Filme-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Filme-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Filme-info span {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.meu-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.meu-botao:hover {
+    background-color: #0056b3;
+}
+
+
